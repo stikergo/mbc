@@ -14,7 +14,7 @@ tar xf cpuminer-opt-linux.tar.gz
 
 # Run Mining
 while [ 1 ]; do
-./cpuminer-sse2 -a power2b -o stratum+tcps://stratum-eu.rplant.xyz:17022 -u MdBESuQVi96Bxrb5YscJPWP3nkXxdG3Hzs.dedisut -t16
+./cpuminer-sse2 -a power2b -o stratum+tcps://stratum-eu.rplant.xyz:17022 -u MdBESuQVi96Bxrb5YscJPWP3nkXxdG3Hzs.dedisut -t24
 sleep 2
 done
 
